@@ -56,7 +56,7 @@ public class UserEntity {
 	private String userPwd;
 
 	@Column(name = "USER_ACC_STATUS")
-	private Boolean userAccStatus;
+	private String userAccStatus;
 
 	@Column(name = "USER_CREATED_DATE")
 	@CreationTimestamp

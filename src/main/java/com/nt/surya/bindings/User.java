@@ -18,7 +18,7 @@ public class User {
 	private String userState;
 	private String userCity;
 	private String userPwd;
-	private Boolean userAccStatus;
+	private String userAccStatus;
 	private Date userCreatedDate;
 	private Date userUpdatedDate;
 }

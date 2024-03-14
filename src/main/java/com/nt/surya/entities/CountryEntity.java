@@ -16,5 +16,5 @@ public class CountryEntity{
 	private Integer countryId;
 	
 	@Column(name = "COUNTRY_NAME")
-	private Integer countryName;
+	private String countryName;
 }

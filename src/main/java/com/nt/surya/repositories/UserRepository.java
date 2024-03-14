@@ -8,4 +8,6 @@ import com.nt.surya.entities.UserEntity;
 
 public interface UserRepository extends JpaRepository<UserEntity, Serializable> {
 
+
+	public UserEntity findByUserEmail(String userEmail);
 }
